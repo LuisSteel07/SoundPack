@@ -16,5 +16,6 @@
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "license": "GNU General Public License (GPL) version 3.0"
 }
