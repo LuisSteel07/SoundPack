@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "sound-pack",
   "private": true,
   "scripts": {
     "build": "turbo run build",
