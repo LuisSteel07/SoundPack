@@ -1,0 +1,22 @@
+{
+  "name": "types",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "push": "npx drizzle-kit push"
+  },
+  "author": "LuisSteel07",
+  "license": "GNU General Public License (GPL) version 3.0",
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "zod": "^4.1.13"
+  }
+}
