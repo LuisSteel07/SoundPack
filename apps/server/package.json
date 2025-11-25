@@ -11,8 +11,10 @@
   "license": "GNU General Public License (GPL) version 3.0",
   "dependencies": {
     "bcryptjs": "^3.0.3",
+    "db": "workspace:*",
     "dotenv": "^17.2.3",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "server": "link:"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.10",

@@ -1,0 +1,28 @@
+{
+  "name": "db",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "push": "npx drizzle-kit push"
+  },
+  "author": "LuisSteel07",
+  "license": "GNU General Public License (GPL) version 3.0",
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.15.3",
+    "@types/pg": "^8.15.6",
+    "drizzle-kit": "^0.31.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "db": "link:",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "pg": "^8.16.3"
+  }
+}
